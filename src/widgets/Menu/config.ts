@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.moonwalker.network",
+        href: "https://polygon-swap.moonwalker.network",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.moonwalker.network/#/pool",
+        href: "https://polygon-swap.moonwalker.network/#/pool",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://info.moonwalker.network",
+        href: "https://polygon-info.moonwalker.network",
       },
       {
         label: "Tokens",
-        href: "https://info.moonwalker.network/tokens",
+        href: "https://polygon-info.moonwalker.network/tokens",
       },
       {
         label: "Pairs",
-        href: "https://info.moonwalker.network/pairs",
+        href: "https://polygon-info.moonwalker.network/pairs",
       },
       {
         label: "Accounts",
-        href: "https://info.moonwalker.network/accounts",
+        href: "https://polygon-info.moonwalker.network/accounts",
       },
     ],
   },
@@ -94,16 +94,12 @@ export const links = [
     icon: "MoreIcon",
     items: [
       {
-        label: "Voting",
-        href: "https://voting.moonwalker.network",
-      },
-      {
         label: "Github",
         href: "https://github.com/Moonwalkerjim",
       },
       {
         label: "Docs",
-        href: "https://swap-docs.moonwalker.network",
+        href: "https://polygon-docs.moonwalker.network",
       },
       {
         label: "Blog",

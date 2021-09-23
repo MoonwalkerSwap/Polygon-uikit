@@ -1,7 +1,7 @@
 {
-  "name": "moonwalkerswap-uikit2",
+  "name": "polygon-moonwalkerswap-uikit",
   "version": "1.0.0",
-  "description": "Set of UI components for MoonWalkerSwap project",
+  "description": "Set of UI components for Polygon MoonWalkerSwap project",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MoonWalkerJim/MoonWalkerSwap-uikit.git"
+    "url": "git+https://github.com/MoonWalkerJim/Polygon-MoonWalkerSwap-uikit.git"
   },
   "license": "MIT",
   "scripts": {
@@ -84,14 +84,16 @@
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
+    "moonwalkerswap-uikit": "^1.1.0",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
   },
   "bugs": {
-    "url": "https://github.com/MoonWalkerJim/MoonWalkerSwap-uikit/issues"
+    "url": "https://github.com/MoonWalkerJim/Polygon-MoonWalkerSwap-uikit/issues"
   },
-  "homepage": "https://github.com/MoonWalkerJim/MoonWalkerSwap-uikit#readme",
+  "homepage": "https://github.com/MoonWalkerJim/Polygon-MoonWalkerSwap-uikit#readme",
   "keywords": [
+    "polygon",
     "moonwalker",
     "swap",
     "uikit"

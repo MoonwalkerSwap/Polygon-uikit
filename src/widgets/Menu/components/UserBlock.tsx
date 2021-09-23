@@ -1,12 +1,12 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
 import Button from "../../../components/Button/Button";
 import { useWalletModal } from "../../WalletModal";
 import { Login } from "../../WalletModal/types";
 
 const StyledButton = styled(Button)`
-  color: ${({theme}) => theme.colors.text} 
-`
+  color: ${({ theme }) => theme.colors.text};
+`;
 
 interface Props {
   account?: string;

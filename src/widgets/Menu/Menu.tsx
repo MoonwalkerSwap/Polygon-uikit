@@ -70,7 +70,7 @@ const Menu: React.FC<NavProps> = ({
   langs,
   setLang,
   currentLang,
-  dustPriceUsd,
+  PDustPriceUsd,
   links,
   profile,
   children,
@@ -137,7 +137,7 @@ const Menu: React.FC<NavProps> = ({
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
-          dustPriceUsd={dustPriceUsd}
+          PDustPriceUsd={PDustPriceUsd}
           pushNav={setIsPushed}
           links={links}
         />

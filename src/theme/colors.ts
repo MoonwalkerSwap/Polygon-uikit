@@ -1,13 +1,13 @@
 import { Colors } from "./types";
 
 export const baseColors = {
-  failure: "#FEC803",
-  primary: "#FEC803",
-  primaryBright: "#FFE583",
-  primaryDark: "#FEC803",
+  failure: "#7027A0",
+  primary: "#7027A0",
+  primaryBright: "#451862",
+  primaryDark: "#7027A0",
   secondary: "#F0C803",
-  success: "#FEC803",
-  warning: "#FFB237",
+  success: "#7027A0",
+  warning: "#451862",
 };
 
 export const brandColors = {
@@ -31,7 +31,7 @@ export const lightColors: Colors = {
   card: "#FFFFFF",
   extra: "#373737",
   button: "linear-gradient(90deg, #919191 0%, #272727 100%)",
-  farming: 'rgba(254, 200, 3, 0.1)',
+  farming: "rgba(254, 200, 3, 0.1)",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   },
@@ -40,14 +40,14 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#FEC803",
-  background: "#2B2B2B", 
+  secondary: "#7027A0",
+  background: "#2B2B2B",
   backgroundDisabled: "#C7C7C7",
   contrast: "#FFFFFF",
   invertedContrast: "#343434",
   input: "#444444",
   inputSecondary: "#444444",
-  primaryDark: "#FEC803",
+  primaryDark: "#7027A0",
   tertiary: "#444444",
   text: "#FFFFFF",
   textDisabled: "#777777",
@@ -55,8 +55,8 @@ export const darkColors: Colors = {
   borderColor: "#C7C7C7",
   card: "#343434",
   extra: "#FAC504",
-  button: "linear-gradient(90deg, #FEC803 0%, #7C6A25 100%)",
-  farming: 'rgba(255, 255, 255, 0.1)',
+  button: "linear-gradient(90deg, #7027A0 0%, #7C6A25 100%)",
+  farming: "rgba(255, 255, 255, 0.1)",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
   },

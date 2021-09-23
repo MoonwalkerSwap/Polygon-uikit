@@ -20,7 +20,7 @@ const langs: LangType[] = [...Array(20)].map((_, i) => ({ code: `en${i}`, langua
 // This hook is used to simulate a props change, and force a re rendering
 const useProps = () => {
   const [props, setProps] = useState({
-    account: "0xbdda50183d817c3289f895a4472eb475967dc980",
+    account: "0x5ce9680bddc91d955a51b959f5cabaf466b0be5a",
     login: noop,
     logout: noop,
     isDark: false,
@@ -28,7 +28,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: "EN",
-    dustPriceUsd: 0.023158668932877668,
+    PDustPriceUsd: 0.023158668932877668,
     links,
     profile: null,
   });
@@ -36,7 +36,7 @@ const useProps = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setProps({
-        account: "0xbdda50183d817c3289f895a4472eb475967dc980",
+        account: "0x5ce9680bddc91d955a51b959f5cabaf466b0be5a",
         login: noop,
         logout: noop,
         isDark: false,
@@ -44,7 +44,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: "EN",
-        dustPriceUsd: 0.023158668932877668,
+        PDustPriceUsd: 0.023158668932877668,
         links,
         profile: null,
       });
@@ -120,7 +120,7 @@ export const WithNoProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x5ce9680bddc91d955a51b959f5cabaf466b0be5a"
         login={noop}
         logout={noop}
         isDark={false}
@@ -128,7 +128,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        dustPriceUsd={0.023158668932877668}
+        PDustPriceUsd={0.023158668932877668}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -162,7 +162,7 @@ export const WithProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x5ce9680bddc91d955a51b959f5cabaf466b0be5a"
         login={noop}
         logout={noop}
         isDark={false}
@@ -170,7 +170,7 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        dustPriceUsd={0.23158668932877668}
+        PDustPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: "moonwalkerswap",
@@ -216,7 +216,7 @@ export const WithSubmenuSelected: React.FC = () => {
   return (
     <MemoryRouter initialEntries={["/teams"]}>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x5ce9680bddc91d955a51b959f5cabaf466b0be5a"
         login={noop}
         logout={noop}
         isDark={false}
@@ -224,7 +224,7 @@ export const WithSubmenuSelected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        dustPriceUsd={0.023158668932877668}
+        PDustPriceUsd={0.023158668932877668}
         links={links}
         profile={{
           username: "moonwalkerswap",

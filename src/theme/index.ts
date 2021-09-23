@@ -28,6 +28,6 @@ export interface MoonWalkerTheme {
 
 export { default as dark } from "./dark";
 export { default as light } from "./light";
-
+export default MoonWalkerTheme;
 export { lightColors } from "./colors";
 export { darkColors } from "./colors";

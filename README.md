@@ -1,10 +1,10 @@
-# 🚀 MoonWalkerSwap UIkit
+# 🚀 Polygon MoonWalkerSwap UIkit
 
-MoonWalkerSwap UIkit is a set of React components and hooks used to build pages on MoonWalkerSwapswap's apps. It also contains a theme file for dark and light mode.
+Polygon MoonWalkerSwap UIkit is a set of React components and hooks used to build pages on MoonWalkerSwap's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`npm i moonwalkerswap-uikit`
+`npm i polygon-moonwalkerswap-uikit`
 
 ## Setup
 
@@ -14,7 +14,7 @@ Before using MoonWalkerSwap UIkit, you need to provide the theme file to styled-
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from 'moonwalkerswap-uikit'
+import { light, dark } from 'polygon-moonwalkerswap-uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -24,7 +24,7 @@ import { light, dark } from 'moonwalkerswap-uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from 'jetswap-uikit'
+import { ResetCSS } from 'polygon-moonwalkerswap-uikit'
 ...
 <ResetCSS />
 ```
@@ -35,7 +35,7 @@ This project is built with Typescript and export all the relevant types.
 
 ## How to use the UIkit
 
-If you want to use components from the UIkit, check the [Storybook documentation](https://mooonwalkerjim.github.io/moonwalkerswap-uikit/)
+If you want to use components from the UIkit, check the [Storybook documentation](https://mooonwalkerjim.github.io/polygon-moonwalkerswap-uikit/)
 
 ## How to Customize UIkit
 

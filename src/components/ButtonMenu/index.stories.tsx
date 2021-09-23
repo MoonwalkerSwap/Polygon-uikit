@@ -68,13 +68,13 @@ export const AsLinks: React.FC = () => {
   return (
     <Row>
       <ButtonMenu activeIndex={0}>
-        <ButtonMenuItem as="a" href="https://swap.moonwalker.network">
+        <ButtonMenuItem as="a" href="https://polygon-swap.moonwalker.network">
           Link 1
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://swap.moonwalker.network">
+        <ButtonMenuItem as="a" href="https://polygon-swap.moonwalker.network">
           Link 2
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://swap.moonwalker.network">
+        <ButtonMenuItem as="a" href="https://polygon-swap.moonwalker.network">
           Link 3
         </ButtonMenuItem>
       </ButtonMenu>

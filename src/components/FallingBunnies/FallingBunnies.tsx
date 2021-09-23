@@ -80,4 +80,4 @@ const FallingBunnies: React.FC<FallingBunniesProps> = ({
   return <div>{bunnies}</div>;
 };
 
-export default FallingBunnies;
+export default module FallingBunnies;
